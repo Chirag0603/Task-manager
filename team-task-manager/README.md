@@ -39,8 +39,9 @@ NODE_ENV=development
 npm run dev
 ```
 
-- Frontend: http://localhost:5173
-- Backend API: http://localhost:5000/api
+- Frontend (local dev): http://localhost:5173
+- Production: https://task-manager-production-0ae1.up.railway.app
+- Backend API: https://task-manager-production-0ae1.up.railway.app/api
 
 ## 📁 Project Structure
 
@@ -94,7 +95,7 @@ team-task-manager/
 3. Add **two services**: one for `server/`, one for `client/`
 4. Add MongoDB plugin or use MongoDB Atlas
 5. Set environment variables in Railway dashboard
-6. Update `VITE_API_URL` in client to point to server Railway URL
+6. Set `VITE_API_URL=https://task-manager-production-0ae1.up.railway.app/api` in client (see `client/.env`)
 
 ## 📹 Tech Stack
 
